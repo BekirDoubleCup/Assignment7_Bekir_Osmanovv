@@ -42,6 +42,8 @@
             this.correct_lbl = new System.Windows.Forms.Label();
             this.incorrect_label = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -168,11 +170,31 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Your uncorrect answers:";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(144, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(49, 15);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Correct:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(46, 27);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 15);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Student:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(418, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.incorrect_label);
             this.Controls.Add(this.correct_lbl);
@@ -210,5 +232,7 @@
         private Label correct_lbl;
         private Label incorrect_label;
         private Label label5;
+        private Label label6;
+        private Label label7;
     }
 }
